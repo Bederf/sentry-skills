@@ -46,6 +46,19 @@ Before using a skill, replace the synthetic tool paths and environment
 placeholders with a consumer-owned adapter. Do not place secrets in skill
 files. Inject them at runtime through the consumer's approved secret manager.
 
+## Project status
+
+**Maturity: sanitized skill-library showcase.** The instruction-layer assets are
+complete enough to study and adapt, but they are not a deployable BMS product.
+Runtime tools, authentication, storage, notifications and authority remain
+consumer-owned integration work.
+
+## Fastest tour
+
+Read the skill files alongside [Development Platform Core](https://github.com/Bederf/development-platform-core)
+and [GSD Master](https://github.com/Bederf/gsd-master), then adapt one narrow
+workflow with synthetic identifiers before connecting any real system.
+
 ## License
 
 Copyright (c) Pieter van Rooyen. Released under the MIT License; see
